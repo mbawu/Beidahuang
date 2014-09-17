@@ -49,10 +49,13 @@
             android:orientation="vertical" >
 
             <!-- 广告栏 -->
-   <com.android.volley.toolbox.NetworkImageView
-        android:id="@+id/home_photo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+
+            <ViewFlipper
+                android:id="@+id/home_viewFlipper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white" >
+            </ViewFlipper>
 
             <!-- 秒杀专区 -->
 
@@ -98,7 +101,7 @@
                     </LinearLayout>
                 </FrameLayout>
 
-                <com.xqxy.hrht.base.MyGridView
+                <com.bdh.base.MyGridView
                     android:id="@+id/home_seckill_gridview"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
@@ -155,7 +158,7 @@
                     </LinearLayout>
                 </FrameLayout>
 
-                <com.xqxy.hrht.base.MyGridView
+                <com.bdh.base.MyGridView
                     android:id="@+id/home_hot_gridview"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"

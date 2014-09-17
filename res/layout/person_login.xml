@@ -53,6 +53,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button"
+                android:textSize="13sp"
                 android:text="@string/person_login_register" />
         </LinearLayout>
     </FrameLayout>
@@ -126,7 +127,7 @@
         android:paddingRight="15dp"
         android:text="@string/person_login_forgetPwd"
         android:textColor="@color/gray" 
-        android:visibility="gone"/>
+        android:visibility="visible"/>
 
     <!-- 登录按钮 -->
 

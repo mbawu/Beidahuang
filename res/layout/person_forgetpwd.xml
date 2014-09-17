@@ -21,7 +21,7 @@
             android:layout_gravity="left"
             android:background="@drawable/title_item_selector"
             android:gravity="center"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/title_icon_left"
@@ -201,7 +201,7 @@
             android:layout_margin="@dimen/system_padding"
             android:layout_marginTop="35dp"
             android:orientation="vertical"
-            android:visibility="visible" >
+            android:visibility="gone" >
 
             <!-- 新密码 -->
 

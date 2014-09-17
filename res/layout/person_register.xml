@@ -19,7 +19,7 @@
             android:background="@drawable/title_item_selector"
             android:gravity="center"
             android:orientation="horizontal"
-            android:layout_gravity="left" >
+            android:layout_gravity="left">
 
             <ImageView
                 android:id="@+id/title_icon_left"
@@ -54,7 +54,15 @@
             android:orientation="vertical" >
 
             
-             
+             <EditText
+                android:id="@+id/person_register_username"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:hint="@string/person_register_username"
+                android:paddingLeft="20dp"
+                android:textColor="#333333"
+                android:textSize="15sp" />
             <EditText
                 android:id="@+id/person_register_phone"
                 android:layout_width="fill_parent"
@@ -68,8 +76,7 @@
             <FrameLayout
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent" 
-                                    android:layout_marginBottom="10dp"
-                                    android:visibility="gone">
+                                    android:layout_marginBottom="10dp">
 
                 <EditText
                     android:id="@+id/person_register_validmsg"
@@ -90,8 +97,7 @@
                     android:layout_gravity="right"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
-                    android:text="获取验证码"
-                    android:visibility="gone"/>
+                    android:text="获取验证码"/>
             </FrameLayout>
 
             <EditText
@@ -124,8 +130,7 @@
                 android:hint="@string/person_register_email"
                 android:paddingLeft="20dp"
                 android:textColor="#333333"
-                android:textSize="15sp" 
-                android:visibility="gone"/>
+                android:textSize="15sp" />
 <!-- 注册按钮 -->
             <Button
                 android:id="@+id/person_register_btn"
