@@ -22,6 +22,7 @@ import android.widget.Toast;
 import com.android.volley.Response.ErrorListener;
 import com.android.volley.Response.Listener;
 import com.android.volley.VolleyError;
+import com.bdh.R;
 import com.bdh.base.BaseActivity;
 import com.bdh.base.MyAdapter;
 import com.bdh.base.MyApplication;
@@ -29,7 +30,6 @@ import com.bdh.base.Url;
 import com.bdh.model.Category;
 import com.bdh.model.ErrorMsg;
 import com.bdh.model.NetworkAction;
-import com.bdh.R;
 
 //商品分类列表
 public class ProductList extends BaseActivity implements OnClickListener,
