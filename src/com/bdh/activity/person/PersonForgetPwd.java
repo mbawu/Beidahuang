@@ -272,6 +272,7 @@ public class PersonForgetPwd extends Activity implements OnClickListener {
 			paramter.put("SmsContent", "找回密码验证码：");
 		} else if(request.equals(NetworkAction.找回密码)){
 			url = Url.URL_MEMBER;
+			paramter.put("sid", MyApplication.sid);
 			paramter.put("act", "setpwd");
 			paramter.put("smsid", codeId);
 			paramter.put("mobile", phoneNum);
@@ -343,6 +344,8 @@ public class PersonForgetPwd extends Activity implements OnClickListener {
 									step2Layout.setVisibility(View.GONE);
 									step3Layout.setVisibility(View.VISIBLE);
 									step = 3;
+									MyApplication.ed.putString("password", pwdTxt.getText().toString());
+									MyApplication.ed.commit();
 									nextBtn.setText("完成");
 								}
 								else

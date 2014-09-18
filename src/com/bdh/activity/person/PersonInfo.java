@@ -120,7 +120,7 @@ public class PersonInfo extends Fragment implements OnClickListener {
 		reNewPwdTxt = (EditText) view.findViewById(R.id.person_info_renewpwd);// »∑»œ√‹¬Î
 		nameTxt = (EditText) view.findViewById(R.id.person_info_namemod);
 		emailTxt = (EditText) view.findViewById(R.id.person_info_emailmod);
-		phoneTxt = (EditText) view.findViewById(R.id.person_info_phonemod);
+//		phoneTxt = (EditText) view.findViewById(R.id.person_info_phonemod);
 		changePwdLy = (LinearLayout) view
 				.findViewById(R.id.person_info_changepwd_layout);
 		changeInfoLy = (LinearLayout) view

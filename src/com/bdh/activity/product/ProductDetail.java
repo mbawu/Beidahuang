@@ -295,10 +295,12 @@ public class ProductDetail extends Activity implements OnClickListener,
 										name.setText(info.getString("SKName"));
 										referencePrice.setText("￥"+normalInfo
 												.getString("ReferencePrice"));
+										Log.i(MyApplication.TAG,"getStorePrice()->"+ info
+												.getString("SKPrice"));										
 										storePriceTxt.setText("秒杀价：");
 										storePrice.setText("￥"+info
 												.getString("SKPrice"));
-
+										
 										// 初始化图片集合
 										imgList = info.getJSONArray("Images");
 
@@ -932,6 +934,7 @@ public class ProductDetail extends Activity implements OnClickListener,
 			// product.setBuy_type(buyType);// 记录购买的商品类型
 			product.setNum(num);// 设置商品的数量为当前选择的数量
 			double p1NumSub = Double.valueOf(product.getNum());
+			Log.i(MyApplication.TAG,"product.getStorePrice()->"+ product.getStorePrice());
 			double p1riceSub = Double.valueOf(product.getStorePrice());
 			product.setTotalPrice(String.valueOf(p1NumSub * p1riceSub));// 设置该商品的总价
 			if (MyApplication.loginStat) {

@@ -122,8 +122,8 @@ public class PersonRegister extends Activity implements OnClickListener {
 			paramter.put("act", "iscode");
 			paramter.put("sid", MyApplication.sid);
 			paramter.put("mobile", phone);
-			paramter.put("code", valid);
-			paramter.put("NEWID", codeId);
+			paramter.put("smskey", valid);
+			paramter.put("smsid", codeId);
 		} else if (request.equals(NetworkAction.获取验证码)) {
 			url = Url.URL_VERIFICATION;
 			paramter.put("sid", MyApplication.sid);
@@ -281,7 +281,8 @@ public class PersonRegister extends Activity implements OnClickListener {
 										response.getString("city_id"));
 								MyApplication.ed.putString("area_id",
 										response.getString("area_id"));
-
+								MyApplication.ed.putString("phone",
+										phone);
 								MyApplication.ed.commit();
 								// Toast.makeText(PersonRegister.this,
 								// "注册成功", 2000).show();

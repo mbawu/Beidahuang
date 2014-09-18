@@ -309,7 +309,7 @@
                         android:gravity="left|center_vertical" />
                 </FrameLayout>
                 <!-- 电话 -->
-
+<!-- 
                 <FrameLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -329,7 +329,7 @@
                         android:layout_gravity="right"
                         android:gravity="left|center_vertical" />
                 </FrameLayout>
-
+ -->
                 <FrameLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" >
