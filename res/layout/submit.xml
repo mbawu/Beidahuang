@@ -138,6 +138,7 @@
                 android:paddingTop="5dp"
                 android:paddingBottom="5dp"
                 android:drawableLeft="@drawable/submit_payway_bg"
+                android:visibility="gone"
                 android:text="在线支付"/>
             
              <RadioButton
@@ -145,6 +146,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:button="@null"
+                android:checked="true"
                 android:layout_marginLeft="20dp"
                   android:paddingLeft="10dp"
                 android:paddingRight="10dp"

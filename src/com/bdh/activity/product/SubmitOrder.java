@@ -66,7 +66,7 @@ public class SubmitOrder extends Activity implements OnClickListener {
 	private RadioGroup paywayGroup;
 	private RadioButton online; // 在线付款按钮
 	private RadioButton receive; // 货到付款按钮
-	private String payway = "1";// 付款方式：1在线支付，2货到付款
+	private String payway = "2";// 付款方式：1在线支付，2货到付款
 	private Address defaultAddress = null;
 	private HashMap<String, Coupon> couponList;// 优惠券集合
 	private String productID;// 商品ID
