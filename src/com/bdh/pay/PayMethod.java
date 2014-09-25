@@ -163,12 +163,12 @@ public class PayMethod extends Activity implements OnClickListener {
 		sb.append("\"&notify_url=\"");
 		// ç½‘å€éœ?¦åšURLç¼–ç 
 		sb.append(URLEncoder
-				.encode("http://www.jdhuitong.com/alipay3/notify_url.php"));
+				.encode("http://www.hljfood.com/alipay3/notify_url.php"));
 		sb.append("\"&service=\"mobile.securitypay.pay");
 		sb.append("\"&_input_charset=\"UTF-8");
 		sb.append("\"&return_url=\"");
 		sb.append(URLEncoder
-				.encode("http://www.jdhuitong.com/alipay3/call_back_url.php"));
+				.encode("http://www.hljfood.com/alipay3/call_back_url.php"));
 		sb.append("\"&payment_type=\"1");
 		sb.append("\"&seller_id=\"");
 		sb.append(Keys.DEFAULT_SELLER);
