@@ -114,9 +114,9 @@ public final class R {
         public static final int bigstar_ratingbar_full=0x7f020003;
         public static final int box_disable=0x7f020004;
         public static final int box_normal=0x7f020005;
-        public static final int btn_add_address=0x7f02007f;
-        public static final int btn_normal=0x7f02007e;
-        public static final int btn_press=0x7f02007d;
+        public static final int btn_add_address=0x7f020080;
+        public static final int btn_normal=0x7f02007f;
+        public static final int btn_press=0x7f02007e;
         public static final int btn_radio_off=0x7f020006;
         public static final int btn_radio_on=0x7f020007;
         public static final int button=0x7f020008;
@@ -136,8 +136,8 @@ public final class R {
         public static final int dialog_cut_line=0x7f020016;
         public static final int dialog_split_h=0x7f020017;
         public static final int dialog_split_v=0x7f020018;
-        public static final int drawable_gray=0x7f02007b;
-        public static final int drawable_white=0x7f02007c;
+        public static final int drawable_gray=0x7f02007c;
+        public static final int drawable_white=0x7f02007d;
         public static final int edit_text_selector=0x7f020019;
         public static final int ic_launcher=0x7f02001a;
         public static final int layout_productlist_sec=0x7f02001b;
@@ -236,6 +236,7 @@ public final class R {
         public static final int xingxingan_long=0x7f020078;
         public static final int xingxingan_new=0x7f020079;
         public static final int xuxian=0x7f02007a;
+        public static final int zhifubao=0x7f02007b;
     }
     public static final class id {
         public static final int AlipayTitle=0x7f090006;
