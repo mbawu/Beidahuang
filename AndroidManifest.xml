@@ -97,7 +97,7 @@
         <!-- Required. AppKey copied from Portal -->
         <meta-data
             android:name="JPUSH_APPKEY"
-            android:value="fdd49898fa31dcc7188ca427" />
+            android:value="24a2583f67fe6a6a0773dc1e" />
        <!--            JPUSH      END                -->
         <!-- 开机自启广播 -->
         <receiver android:name=".base.BootReceiver" >

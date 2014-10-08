@@ -27,7 +27,6 @@ import com.bdh.model.Coupon;
 import com.bdh.model.ErrorMsg;
 import com.bdh.model.NetworkAction;
 import com.bdh.model.Product;
-import com.bdh.utils.EulaWebView;
 import com.bdh.R;
 
 import android.annotation.SuppressLint;
